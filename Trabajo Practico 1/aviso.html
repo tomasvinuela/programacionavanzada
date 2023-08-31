@@ -1,0 +1,71 @@
+<!DOCTYPE> 
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>
+            Pagina con Javascript
+        </title>
+        <script language="Javascript">
+            console.log('Hola desde Javascript')
+
+            //Punto 1
+            const cadena1 = 'Licenciatura en '
+            const cadena2 = 'Sistemas de Informacion'
+            console.log(cadena1 + cadena2)
+
+            //Punto 2
+            const a = 5
+            const b = 20
+            const suma = a + b
+            console.log(suma)
+            const resta = b - a
+            console.log(resta)
+            const multiplicacion = a * b
+            console.log(multiplicacion)
+            const division = b/a
+            console.log(division)
+
+            //Punto 3
+            var edad, genero
+            edad = prompt('Introduzca su edad (en cifras)', '')
+            edad = parseInt(edad)
+            if (edad >= 65){
+                console.log('Usted califica para jubilacion')
+            }
+            else {
+                console.log('Usted no califica para jubilacion')
+            }
+
+            //Punto 4
+            genero = prompt('Introduzca su genero (M o F)', '')
+            if(genero == 'M' || genero == 'm') {
+                edad = prompt('Introduzca su edad (en cifras)', '')
+                edad = parseInt(edad)
+                if (edad >= 65){
+                    console.log('Usted califica para jubilacion')
+                }
+                else{
+                    console.log('Usted no califica para jubilacion')
+                }
+            }
+            if(genero == 'F' || genero == 'f') {
+                edad = prompt('Introduzca su edad (en cifras)', '')
+                edad = parseInt(edad)
+                if (edad >= 60){
+                    console.log('Usted califica para jubilacion')
+                }
+                else{
+                    console.log('Usted no califica para jubilacion')
+                }
+            }
+            
+            
+            
+
+        </script>
+    </head>
+    <body>
+        Esto es el body de la Pagina
+        El año nuevo comienza mañana
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE> 
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>
+            Matrices con Javascript
+        </title>
+        <script language="Javascript">
+        var nombres = new Array();
+        nombres[0] = 'Nacho';
+        nombres[1] = 'Arek';
+        nombres[2] = 'Laura';
+        nombres[3] = 'Sonia';
+        nombres[4] = 'Gonzalo';
+        nombres[5] = 'Eva';
+        nombres[6] = 'Pedro';
+        
+        document.write('Nombres de la lista:' + "<br>")
+
+        for (var i = 0; i<7; i++){
+            document.write(nombres[i] + "<br>")
+        }
+        document.write("<br>")
+        document.write('Nombre que se desea mostrar:' + "<br>")
+        var nuevo_nombre = prompt('Introduzca el nombre que desea mostrar', '')
+
+        var esta = false
+        for (var i = 0; i<7; i++){
+            if(nuevo_nombre == nombres[i]){
+                esta = true
+                i = (i+7)
+            }
+        }
+        if(esta == true){
+            document.write(nuevo_nombre + "<br>")
+        }
+        else{
+            alert('El nombre no se encuentra en la lista, intente de nuevo')
+        }
+
+
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
