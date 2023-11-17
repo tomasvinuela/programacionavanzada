@@ -19,5 +19,5 @@ Otras notas a tener en cuenta:
 
 ## Errores encontrados
 
-Por alguna razon, a pesar de estar programada de forma correcta y no tirar errores, la aplicacion no muestra las paginas con la lista de viajes posibles, mostrando en su lugar un Error 404. Trate de arreglar este problema de varias formas pero me fue imposible ya que todo parece correr bien.
+Por alguna razon, a pesar de estar programada de forma correcta y no tirar errores, la aplicacion no muestra las paginas con la lista de viajes posibles, mostrando en su lugar un Error 404. Trate de arreglar este problema de varias formas pero me fue imposible ya que todo parece correr bien. Intuyo que el problema recae en la version de alguna de mis dependencias, ya que esto de tener un Error 404 por mas que este bien programado me paso en los TP anteriores.
 
